@@ -9,22 +9,22 @@ import SelectedWork from "@/components/home/SelectedWork";
 import Services from "@/components/home/Services";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
+import OrganizationJsonLd from "@/components/seo/OrganizationJsonLd";
 import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale } from "@/i18n/config";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dictionary = await getDictionary(locale);
-  const canonical = `/${locale}`;
-  return {
+
+  return createPageMetadata({
+    locale,
     title: dictionary.metadata.homeTitle,
     description: dictionary.metadata.homeDescription,
-    alternates: {
-      canonical,
-      languages: { en: "/en", es: "/es", "x-default": "/en" },
-    },
-  };
+    type: "website",
+  });
 }
 
 export default async function Home({ params }: PageProps<"/[locale]">) {
@@ -34,6 +34,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
 
   return (
     <>
+      <OrganizationJsonLd />
       <Navbar locale={locale} messages={dictionary.nav} />
       <main id="main-content">
         <Hero messages={dictionary.hero} />

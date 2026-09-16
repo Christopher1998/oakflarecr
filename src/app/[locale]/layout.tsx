@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 
 import { getDictionary } from "@/i18n/dictionaries";
@@ -31,6 +33,8 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           {dictionary.common.skipToContent}
         </a>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
