@@ -14,9 +14,9 @@ export default function Navbar({ locale, messages, caseStudy = false }: {
   return (
     <header className="relative z-50 border-b border-line">
       <div className="site-container flex min-h-20 flex-wrap items-center justify-between gap-x-4 md:min-h-24">
-        <Link href={home} aria-label={messages.homeLabel} className="inline-flex min-h-11 shrink-0 items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em]">
+        <Link href={home} aria-label={messages.homeLabel} className="group inline-flex min-h-11 shrink-0 items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em]">
           Oakflare
-          <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-accent" />
+          <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-accent transition-transform duration-200 group-hover:scale-150 group-focus-visible:scale-150" />
         </Link>
 
         {caseStudy ? (
