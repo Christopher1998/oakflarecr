@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "homeTitle": "Oakflare — Digital Products & Software",
+    "homeDescription": "Oakflare designs and develops modern websites, applications, and digital products built for performance, scalability, and growth.",
+    "mossTitle": "Moss Project — Case Study | Oakflare",
+    "mossDescription": "Case study of Moss Project, a tourism booking platform designed and developed by Oakflare.",
+    "logisticaTitle": "Logística SA — Case Study | Oakflare",
+    "logisticaDescription": "Case study of Logística SA, a logistics and package management platform designed and developed by Oakflare."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "caseStudy": "Case Study",
+    "industry": "Industry",
+    "type": "Type",
+    "year": "Year",
+    "role": "Role",
+    "designDevelopment": "Design & Development",
+    "publicExperience": "Public experience",
+    "technology": "Technology",
+    "result": "Result",
+    "nextProject": "Next project",
+    "technologies": "Technologies",
+    "opensNewTab": "opens in a new tab"
+  },
+  "nav": {
+    "homeLabel": "Oakflare home",
+    "navigationLabel": "Main navigation",
+    "languageLabel": "Language",
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "startProject": "Start a project",
+    "backToWork": "Back to work",
+    "switchToEnglish": "English, current language",
+    "switchToSpanish": "Switch language to Spanish"
+  },
+  "hero": {
+    "startProject": "Start a project",
+    "eyebrow": "Digital Product Studio",
+    "titleLine1": "Digital",
+    "titleLine2": "products",
+    "titleLine3": "that stand out.",
+    "description": "We design and develop modern websites, applications, and digital products built for ambitious businesses.",
+    "explore": "Explore our work",
+    "capabilities": "Websites · Web apps · Mobile apps · APIs",
+    "signature": "oakflare / software studio"
+  },
+  "work": {
+    "eyebrow": "Selected work",
+    "titleLine1": "Built for the",
+    "titleLine2": "real world.",
+    "intro": "Digital products designed around real business problems, from early ideas to production-ready platforms.",
+    "viewCaseStudy": "View case study",
+    "viewCaseStudyLabel": "View {project} case study",
+    "projects": [
+      {
+        "name": "Moss Project",
+        "category": "Tourism Booking Platform",
+        "description": "A complete tourism booking experience designed to help independent guides showcase tours, manage reservations, and accept online payments.",
+        "imageAlt": "Moss Project tour discovery catalog"
+      },
+      {
+        "name": "Logística SA",
+        "category": "Logistics Management Platform",
+        "description": "A logistics platform built to manage customers, packages, tracking, assignments, and day-to-day courier operations.",
+        "imageAlt": "SA Logística operations dashboard"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "titleLine1": "We build the tools",
+    "titleLine2": "businesses need.",
+    "intro": "From the first idea to production, Oakflare helps businesses turn problems into useful, reliable and thoughtfully designed digital products.",
+    "capabilitiesLabel": "Capabilities",
+    "different": "Have something different in mind?",
+    "items": [
+      { "title": "Websites", "description": "Fast, responsive and carefully crafted websites designed to strengthen your brand and turn visitors into customers.", "capabilities": ["Marketing sites", "Landing pages", "Corporate websites"] },
+      { "title": "Web Applications", "description": "Custom web platforms built around your business workflows, users and operational needs.", "capabilities": ["Dashboards", "Booking systems", "Internal platforms"] },
+      { "title": "Mobile Applications", "description": "Modern mobile experiences designed for iOS and Android with performance, usability and scalability in mind.", "capabilities": ["Cross-platform apps", "Customer apps", "Business tools"] },
+      { "title": "Backend & APIs", "description": "Reliable backend systems and APIs that power applications, automate operations and connect services together.", "capabilities": ["REST APIs", "Authentication", "Integrations"] },
+      { "title": "Cloud & Deployment", "description": "Production infrastructure, deployments and environments designed to keep your product running reliably.", "capabilities": ["Docker", "Cloud deployment", "Databases"] }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Oakflare",
+    "titleLine1": "Small studio.",
+    "titleLine2": "Serious products.",
+    "paragraph1": "Oakflare is an independent digital product studio focused on designing and building modern software for businesses that want better tools, better experiences, and room to grow.",
+    "paragraph2": "We work across product strategy, frontend development, backend systems, APIs, databases, payments, and deployment to take ideas from concept to production.",
+    "foundedBy": "Founded by",
+    "founderCopy": "Software developer focused on building practical digital products with modern technologies, thoughtful architecture, and clean user experiences.",
+    "workWith": "Work with Oakflare",
+    "capabilities": ["Frontend Development", "Backend & API Architecture", "Databases & Integrations", "Cloud & Deployment"]
+  },
+  "process": {
+    "eyebrow": "Our process",
+    "titleLine1": "From idea",
+    "titleLine2": "to production.",
+    "intro": "A clear process keeps projects focused, reduces unnecessary complexity, and helps us build the right product faster.",
+    "steps": [
+      { "title": "Discover", "description": "We understand the business, the problem, the users, and what success should look like." },
+      { "title": "Design", "description": "We define the structure, user experience, visual direction, and technical approach." },
+      { "title": "Build", "description": "We develop the product using modern, maintainable technologies and clear architecture." },
+      { "title": "Launch", "description": "We test, deploy, monitor, and prepare the product for real users and future growth." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Start a project",
+    "titleLine1": "Have an idea?",
+    "titleLine2": "Let's build it.",
+    "intro": "Tell us what you're working on. Whether it's a website, application, internal platform, or something completely new, we'd love to hear about it.",
+    "preferEmail": "Prefer email?",
+    "sentLabel": "Inquiry sent",
+    "successTitle": "Project received.",
+    "successCopy": "Thanks for reaching out. We'll review your project and get back to you as soon as possible.",
+    "sendAnother": "Send another inquiry",
+    "formLabel": "Project inquiry",
+    "details": "Project details",
+    "detailsCopy": "Share a little context to get the conversation started.",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your-email@example.com",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Company name (optional)",
+    "projectTypeLabel": "What do you need?",
+    "projectTypePlaceholder": "Select project type",
+    "budgetLabel": "Approximate budget",
+    "budgetPlaceholder": "Select a range",
+    "messageLabel": "Tell us about the project",
+    "messagePlaceholder": "What are you looking to build?",
+    "requiredSelections": "Please choose a project type and budget.",
+    "requiredFields": "Please complete all required fields.",
+    "invalidEmail": "Please enter a valid email address.",
+    "nameTooShort": "Please enter at least 2 characters for your name.",
+    "messageTooShort": "Please enter at least 10 characters for your project description.",
+    "genericError": "We couldn't send your inquiry. Please try again.",
+    "sending": "Sending...",
+    "submit": "Send project inquiry",
+    "projectTypes": ["Website", "Web application", "Mobile application", "Backend / API", "Something else"],
+    "budgets": ["Under $1,000", "$1,000 — $2,500", "$2,500 — $5,000", "$5,000+", "Not sure yet"]
+  },
+  "footer": {
+    "navigationLabel": "Footer navigation",
+    "tagline": "Digital products, websites and software built for businesses ready to grow.",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "credit": "Designed & built by Oakflare."
+  },
+  "projectCta": {
+    "eyebrow": "Have a project?",
+    "titleLine1": "Let's build",
+    "titleLine2": "something useful."
+  },
+  "moss": {
+    "description": "A tourism booking platform designed to help independent guides showcase experiences, manage availability, accept reservations, and operate their business from one place.",
+    "industryValue": "Tourism",
+    "typeValue": "Booking Platform",
+    "heroAlt": "Moss Project tourism website homepage featuring a Costa Rican tree frog",
+    "challengeLabel": "The challenge",
+    "challengeTitle1": "Turning local tourism into a complete",
+    "challengeTitle2": "digital experience.",
+    "challengeCopy": "Independent tour guides often rely on disconnected tools, messages and manual coordination to manage their business. Moss Project was designed to bring discovery, booking and day-to-day operations into one cohesive experience.",
+    "solutionLabel": "The solution",
+    "solutionTitle1": "From discovery to booking",
+    "solutionTitle2": "in one platform.",
+    "solutionCopy": "The platform combines a public tourism experience with a private administrative workspace, allowing visitors to explore tours and book departures while giving the guide control over tours, availability, reservations and payments.",
+    "storyLabel": "Product story",
+    "stories": [
+      { "title": "Tour discovery", "copy": "A visual tour catalog helps travelers compare experiences, locations, duration and pricing before choosing their next adventure.", "alt": "Moss Project tour discovery catalog" },
+      { "title": "Experience details", "copy": "Each tour presents the essential information travelers need before booking, including imagery, pricing, duration, location and meeting point.", "alt": "Moss Project tour detail page for Arenal Volcano and Hot Springs" },
+      { "title": "Booking flow", "copy": "Travelers choose an available departure, enter their information and select a payment method through a guided reservation flow.", "alt": "Moss Project available departure selection calendar" },
+      { "title": "Operations workspace", "copy": "A dedicated administrative workspace brings tours, departures, reservations, manual payments, announcements and configuration into one interface.", "alt": "Moss Project administrative operations dashboard" },
+      { "title": "Booking self-service", "copy": "Travelers can retrieve an existing reservation using their reference code and email address.", "alt": "Moss Project booking lookup form" }
+    ],
+    "travelerView": "Traveler view · Tour profile",
+    "departureCaption": "Departure selection",
+    "bookingCaption": "Reservation details",
+    "bookingAlt": "Moss Project traveler booking form and payment options",
+    "operationsNote": "The operational side uses a quieter interface so schedules and reservations remain easy to scan throughout the day.",
+    "technologyTitle1": "Built as one",
+    "technologyTitle2": "connected system.",
+    "resultTitle1": "A complete experience for",
+    "resultTitle2": "travelers and operators.",
+    "resultCopy": "Moss Project connects the public booking journey with the operational tools required to manage a tourism business, creating one consistent system from discovery to reservation management.",
+    "nextCategory": "Logistics Management Platform"
+  },
+  "logistica": {
+    "description": "A logistics management platform built to centralize customers, packages, assignments, tracking and day-to-day courier operations.",
+    "industryValue": "Logistics",
+    "typeValue": "Operations Platform",
+    "heroAlt": "SA Logística public website",
+    "challengeLabel": "01 · The challenge",
+    "challengeTitle1": "Making complex operations",
+    "challengeTitle2": "easier to manage.",
+    "challengeParagraphs": ["Courier businesses manage a constant flow of customers, shipments, tracking numbers, package assignments and operational updates.", "When that information is spread across manual processes and disconnected tools, everyday operations become slower and more prone to mistakes.", "Logística SA needed a centralized platform where both staff and customers could interact with package information reliably."],
+    "solutionLabel": "02 · The solution",
+    "solutionTitle1": "One system.",
+    "solutionTitle2": "Clearer operations.",
+    "solutionCopy": "Oakflare built a centralized logistics platform combining customer management, package workflows, tracking, assignments and operational tools into a single production system.",
+    "features": ["Customer management", "Package tracking", "Package assignments", "Pre-alert management", "Operator dashboard", "Customer notifications", "Shipment visibility", "Production infrastructure"],
+    "productLabel": "03 · Product",
+    "screens": [
+      { "label": "Operations center", "description": "A centralized workspace for packages, customers, billing, pre-alerts, ACS synchronization and operational monitoring.", "alt": "SA Logística operations dashboard" },
+      { "label": "Customer portal", "description": "Customers can access their locker information, recent shipments, invoices and account activity from one place.", "alt": "SA Logística customer dashboard" },
+      { "label": "Shipment tracking", "description": "Package status, tracking numbers, estimated charges and shipment progress are available directly from the customer portal.", "alt": "SA Logística package tracking interface" },
+      { "label": "Authentication experience", "description": "A dedicated customer entry point designed to make account access clear and straightforward.", "alt": "SA Logística customer login" }
+    ],
+    "architectureLabel": "04 · Architecture",
+    "architectureTitle1": "Designed beyond",
+    "architectureTitle2": "the interface.",
+    "architectureCopy": "The platform combines a React frontend with a FastAPI backend, PostgreSQL persistence and containerized production services, giving the application a maintainable foundation for real operational workloads.",
+    "architectureItems": [
+      { "title": "Frontend", "description": "Responsive React interface for customers and operators." },
+      { "title": "API", "description": "FastAPI backend handling business logic and integrations." },
+      { "title": "Data", "description": "PostgreSQL database for customers, packages and operations." },
+      { "title": "Infrastructure", "description": "Dockerized production services deployed on Linux." }
+    ],
+    "technologyLabel": "05 · Technology",
+    "technologyTitle1": "Built to be",
+    "technologyTitle2": "maintainable.",
+    "resultLabel": "06 · Result",
+    "resultTitle1": "A clearer foundation for",
+    "resultTitle2": "everyday logistics.",
+    "resultCopy": "Logística SA centralizes the information and workflows required to manage customers and packages, giving the business greater visibility over its daily operations.",
+    "nextCategory": "Tourism Booking Platform"
+  }
+}

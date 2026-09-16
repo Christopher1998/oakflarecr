@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "homeTitle": "Oakflare — Productos digitales y software",
+    "homeDescription": "Oakflare diseña y desarrolla sitios web, aplicaciones y productos digitales modernos, creados para ofrecer rendimiento, escalabilidad y crecimiento.",
+    "mossTitle": "Moss Project — Caso de estudio | Oakflare",
+    "mossDescription": "Caso de estudio de Moss Project, una plataforma de reservas turísticas diseñada y desarrollada por Oakflare.",
+    "logisticaTitle": "Logística SA — Caso de estudio | Oakflare",
+    "logisticaDescription": "Caso de estudio de Logística SA, una plataforma de gestión logística y paquetes diseñada y desarrollada por Oakflare."
+  },
+  "common": {
+    "skipToContent": "Ir al contenido",
+    "caseStudy": "Caso de estudio",
+    "industry": "Industria",
+    "type": "Tipo",
+    "year": "Año",
+    "role": "Rol",
+    "designDevelopment": "Diseño y desarrollo",
+    "publicExperience": "Experiencia pública",
+    "technology": "Tecnología",
+    "result": "Resultado",
+    "nextProject": "Siguiente proyecto",
+    "technologies": "Tecnologías",
+    "opensNewTab": "abre en una pestaña nueva"
+  },
+  "nav": {
+    "homeLabel": "Inicio de Oakflare",
+    "navigationLabel": "Navegación principal",
+    "languageLabel": "Idioma",
+    "work": "Proyectos",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "startProject": "Iniciar un proyecto",
+    "backToWork": "Volver a proyectos",
+    "switchToEnglish": "Cambiar idioma a inglés",
+    "switchToSpanish": "Español, idioma actual"
+  },
+  "hero": {
+    "startProject": "Iniciar un proyecto",
+    "eyebrow": "Estudio de productos digitales",
+    "titleLine1": "Productos",
+    "titleLine2": "digitales",
+    "titleLine3": "que destacan.",
+    "description": "Diseñamos y desarrollamos sitios web, aplicaciones y productos digitales modernos para negocios ambiciosos.",
+    "explore": "Explorar proyectos",
+    "capabilities": "Sitios web · Apps web · Apps móviles · APIs",
+    "signature": "oakflare / estudio de software"
+  },
+  "work": {
+    "eyebrow": "Proyectos seleccionados",
+    "titleLine1": "Productos para",
+    "titleLine2": "el mundo real.",
+    "intro": "Productos digitales diseñados para resolver necesidades reales de negocio, desde la idea inicial hasta plataformas listas para producción.",
+    "viewCaseStudy": "Ver caso de estudio",
+    "viewCaseStudyLabel": "Ver el caso de estudio de {project}",
+    "projects": [
+      {
+        "name": "Moss Project",
+        "category": "Plataforma de reservas turísticas",
+        "description": "Una experiencia completa de reservas turísticas que ayuda a guías independientes a presentar sus tours, gestionar reservaciones y aceptar pagos en línea.",
+        "imageAlt": "Catálogo de experiencias turísticas de Moss Project"
+      },
+      {
+        "name": "Logística SA",
+        "category": "Plataforma de gestión logística",
+        "description": "Una plataforma logística creada para gestionar clientes, paquetes, rastreo, asignaciones y las operaciones diarias de mensajería.",
+        "imageAlt": "Panel de operaciones de Logística SA"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Lo que hacemos",
+    "titleLine1": "Creamos las herramientas",
+    "titleLine2": "que tu negocio necesita.",
+    "intro": "Desde la primera idea hasta producción, Oakflare ayuda a convertir problemas de negocio en productos digitales útiles, confiables y bien diseñados.",
+    "capabilitiesLabel": "Capacidades",
+    "different": "¿Tienes algo diferente en mente?",
+    "items": [
+      { "title": "Sitios web", "description": "Sitios web rápidos, responsivos y cuidadosamente diseñados para fortalecer tu marca y convertir visitas en clientes.", "capabilities": ["Sitios de marketing", "Landing pages", "Sitios corporativos"] },
+      { "title": "Aplicaciones web", "description": "Plataformas web a la medida de los flujos, usuarios y necesidades operativas de tu negocio.", "capabilities": ["Paneles de control", "Sistemas de reservas", "Plataformas internas"] },
+      { "title": "Aplicaciones móviles", "description": "Experiencias móviles modernas para iOS y Android, diseñadas con rendimiento, facilidad de uso y escalabilidad en mente.", "capabilities": ["Apps multiplataforma", "Apps para clientes", "Herramientas de negocio"] },
+      { "title": "Backend y APIs", "description": "Sistemas backend y APIs confiables que impulsan aplicaciones, automatizan operaciones y conectan servicios.", "capabilities": ["APIs REST", "Autenticación", "Integraciones"] },
+      { "title": "Nube y despliegue", "description": "Infraestructura, despliegues y entornos de producción pensados para mantener tu producto funcionando de forma confiable.", "capabilities": ["Docker", "Despliegue en la nube", "Bases de datos"] }
+    ]
+  },
+  "about": {
+    "eyebrow": "Sobre Oakflare",
+    "titleLine1": "Estudio pequeño.",
+    "titleLine2": "Productos serios.",
+    "paragraph1": "Oakflare es un estudio independiente de productos digitales enfocado en diseñar y construir software moderno para negocios que buscan mejores herramientas, mejores experiencias y espacio para crecer.",
+    "paragraph2": "Trabajamos en estrategia de producto, desarrollo frontend, sistemas backend, APIs, bases de datos, pagos y despliegue para llevar ideas desde el concepto hasta producción.",
+    "foundedBy": "Fundado por",
+    "founderCopy": "Desarrollador de software enfocado en crear productos digitales prácticos con tecnologías modernas, arquitectura bien pensada y experiencias de usuario claras.",
+    "workWith": "Trabajar con Oakflare",
+    "capabilities": ["Desarrollo frontend", "Arquitectura backend y APIs", "Bases de datos e integraciones", "Nube y despliegue"]
+  },
+  "process": {
+    "eyebrow": "Nuestro proceso",
+    "titleLine1": "De la idea",
+    "titleLine2": "a producción.",
+    "intro": "Un proceso claro mantiene el enfoque, reduce complejidad innecesaria y nos ayuda a construir el producto correcto con mayor agilidad.",
+    "steps": [
+      { "title": "Descubrir", "description": "Entendemos el negocio, el problema, las personas usuarias y cómo debería verse el éxito." },
+      { "title": "Diseñar", "description": "Definimos la estructura, la experiencia de usuario, la dirección visual y el enfoque técnico." },
+      { "title": "Construir", "description": "Desarrollamos el producto con tecnologías modernas, mantenibles y una arquitectura clara." },
+      { "title": "Lanzar", "description": "Probamos, desplegamos, monitoreamos y preparamos el producto para usuarios reales y su crecimiento futuro." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Iniciar un proyecto",
+    "titleLine1": "¿Tienes una idea?",
+    "titleLine2": "Hagámosla realidad.",
+    "intro": "Cuéntanos en qué estás trabajando. Ya sea un sitio web, una aplicación, una plataforma interna o algo completamente nuevo, nos encantará conocerlo.",
+    "preferEmail": "¿Prefieres escribirnos?",
+    "sentLabel": "Consulta enviada",
+    "successTitle": "Proyecto recibido.",
+    "successCopy": "Gracias por escribirnos. Revisaremos tu proyecto y nos pondremos en contacto lo antes posible.",
+    "sendAnother": "Enviar otra consulta",
+    "formLabel": "Consulta de proyecto",
+    "details": "Detalles del proyecto",
+    "detailsCopy": "Comparte un poco de contexto para iniciar la conversación.",
+    "nameLabel": "Tu nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu-correo@ejemplo.com",
+    "companyLabel": "Empresa",
+    "companyPlaceholder": "Nombre de la empresa (opcional)",
+    "projectTypeLabel": "¿Qué necesitas?",
+    "projectTypePlaceholder": "Selecciona un tipo de proyecto",
+    "budgetLabel": "Presupuesto aproximado",
+    "budgetPlaceholder": "Selecciona un rango",
+    "messageLabel": "Cuéntanos sobre el proyecto",
+    "messagePlaceholder": "¿Qué te gustaría construir?",
+    "requiredSelections": "Selecciona un tipo de proyecto y un presupuesto.",
+    "requiredFields": "Completa todos los campos obligatorios.",
+    "invalidEmail": "Ingresa una dirección de correo electrónico válida.",
+    "nameTooShort": "Ingresa al menos 2 caracteres en tu nombre.",
+    "messageTooShort": "Ingresa al menos 10 caracteres en la descripción de tu proyecto.",
+    "genericError": "No pudimos enviar tu consulta. Inténtalo de nuevo.",
+    "sending": "Enviando...",
+    "submit": "Enviar consulta",
+    "projectTypes": ["Sitio web", "Aplicación web", "Aplicación móvil", "Backend / API", "Otro tipo de proyecto"],
+    "budgets": ["Menos de $1,000", "$1,000 — $2,500", "$2,500 — $5,000", "$5,000+", "Aún no lo sé"]
+  },
+  "footer": {
+    "navigationLabel": "Navegación del pie de página",
+    "tagline": "Productos digitales, sitios web y software para negocios listos para crecer.",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "credit": "Diseñado y desarrollado por Oakflare."
+  },
+  "projectCta": {
+    "eyebrow": "¿Tienes un proyecto?",
+    "titleLine1": "Construyamos",
+    "titleLine2": "algo útil."
+  },
+  "moss": {
+    "description": "Una plataforma de reservas turísticas diseñada para que guías independientes presenten experiencias, gestionen disponibilidad, reciban reservaciones y administren su negocio desde un solo lugar.",
+    "industryValue": "Turismo",
+    "typeValue": "Plataforma de reservas",
+    "heroAlt": "Página principal de Moss Project con una rana de ojos rojos de Costa Rica",
+    "challengeLabel": "El reto",
+    "challengeTitle1": "Convertir el turismo local en una experiencia",
+    "challengeTitle2": "digital completa.",
+    "challengeCopy": "Los guías turísticos independientes suelen depender de herramientas desconectadas, mensajes y coordinación manual para gestionar su negocio. Moss Project fue diseñado para reunir el descubrimiento, las reservas y la operación diaria en una sola experiencia.",
+    "solutionLabel": "La solución",
+    "solutionTitle1": "Del descubrimiento a la reserva",
+    "solutionTitle2": "en una sola plataforma.",
+    "solutionCopy": "La plataforma combina una experiencia turística pública con un espacio administrativo privado. Los visitantes pueden explorar tours y reservar salidas, mientras el guía controla tours, disponibilidad, reservaciones y pagos.",
+    "storyLabel": "Historia del producto",
+    "stories": [
+      { "title": "Descubrimiento de tours", "copy": "Un catálogo visual ayuda a comparar experiencias, ubicaciones, duración y precios antes de elegir la próxima aventura.", "alt": "Catálogo de experiencias turísticas de Moss Project" },
+      { "title": "Detalles de la experiencia", "copy": "Cada tour presenta la información esencial antes de reservar, como imágenes, precio, duración, ubicación y punto de encuentro.", "alt": "Detalle del tour Arenal Volcano and Hot Springs en Moss Project" },
+      { "title": "Flujo de reserva", "copy": "Los viajeros eligen una salida disponible, ingresan su información y seleccionan un método de pago mediante un flujo guiado.", "alt": "Calendario para seleccionar una salida disponible en Moss Project" },
+      { "title": "Espacio de operaciones", "copy": "Un espacio administrativo reúne tours, salidas, reservaciones, pagos manuales, anuncios y configuración en una sola interfaz.", "alt": "Panel administrativo de operaciones de Moss Project" },
+      { "title": "Autogestión de reservas", "copy": "Los viajeros pueden consultar una reservación existente con su código de referencia y correo electrónico.", "alt": "Formulario de consulta de reservas de Moss Project" }
+    ],
+    "travelerView": "Vista del viajero · Perfil del tour",
+    "departureCaption": "Selección de salida",
+    "bookingCaption": "Datos de la reservación",
+    "bookingAlt": "Formulario de reservación y opciones de pago de Moss Project",
+    "operationsNote": "La interfaz operativa utiliza un lenguaje visual más sereno para que horarios y reservaciones sean fáciles de revisar durante el día.",
+    "technologyTitle1": "Construido como un",
+    "technologyTitle2": "sistema conectado.",
+    "resultTitle1": "Una experiencia completa para",
+    "resultTitle2": "viajeros y operadores.",
+    "resultCopy": "Moss Project conecta el recorrido público de reserva con las herramientas operativas necesarias para gestionar un negocio turístico, creando un sistema consistente desde el descubrimiento hasta la administración de reservaciones.",
+    "nextCategory": "Plataforma de gestión logística"
+  },
+  "logistica": {
+    "description": "Una plataforma de gestión logística creada para centralizar clientes, paquetes, asignaciones, rastreo y las operaciones diarias de mensajería.",
+    "industryValue": "Logística",
+    "typeValue": "Plataforma de operaciones",
+    "heroAlt": "Sitio web público de Logística SA",
+    "challengeLabel": "01 · El reto",
+    "challengeTitle1": "Hacer que operaciones complejas sean",
+    "challengeTitle2": "más fáciles de gestionar.",
+    "challengeParagraphs": ["Las empresas de mensajería gestionan un flujo constante de clientes, envíos, números de rastreo, asignaciones de paquetes y actualizaciones operativas.", "Cuando esa información se reparte entre procesos manuales y herramientas desconectadas, el trabajo diario se vuelve más lento y propenso a errores.", "Logística SA necesitaba una plataforma centralizada donde el personal y los clientes pudieran consultar la información de sus paquetes de forma confiable."],
+    "solutionLabel": "02 · La solución",
+    "solutionTitle1": "Un solo sistema.",
+    "solutionTitle2": "Operaciones más claras.",
+    "solutionCopy": "Oakflare construyó una plataforma logística centralizada que reúne gestión de clientes, flujos de paquetes, rastreo, asignaciones y herramientas operativas en un único sistema de producción.",
+    "features": ["Gestión de clientes", "Rastreo de paquetes", "Asignación de paquetes", "Gestión de prealertas", "Panel del operador", "Notificaciones a clientes", "Visibilidad de envíos", "Infraestructura de producción"],
+    "productLabel": "03 · Producto",
+    "screens": [
+      { "label": "Centro de operaciones", "description": "Un espacio centralizado para paquetes, clientes, facturación, prealertas, sincronización con ACS y monitoreo operativo.", "alt": "Panel de operaciones de Logística SA" },
+      { "label": "Portal de clientes", "description": "Los clientes acceden a la información de su casillero, envíos recientes, facturas y actividad de cuenta desde un solo lugar.", "alt": "Panel de clientes de Logística SA" },
+      { "label": "Rastreo de envíos", "description": "El estado, número de rastreo, cargos estimados y progreso de cada envío están disponibles en el portal del cliente.", "alt": "Interfaz de rastreo de paquetes de Logística SA" },
+      { "label": "Experiencia de acceso", "description": "Un punto de entrada dedicado que facilita un acceso claro y directo a la cuenta del cliente.", "alt": "Inicio de sesión para clientes de Logística SA" }
+    ],
+    "architectureLabel": "04 · Arquitectura",
+    "architectureTitle1": "Diseñado más allá",
+    "architectureTitle2": "de la interfaz.",
+    "architectureCopy": "La plataforma combina un frontend en React con un backend en FastAPI, persistencia en PostgreSQL y servicios de producción en contenedores, creando una base mantenible para cargas operativas reales.",
+    "architectureItems": [
+      { "title": "Frontend", "description": "Interfaz responsiva en React para clientes y operadores." },
+      { "title": "API", "description": "Backend en FastAPI para lógica de negocio e integraciones." },
+      { "title": "Datos", "description": "Base de datos PostgreSQL para clientes, paquetes y operaciones." },
+      { "title": "Infraestructura", "description": "Servicios de producción en Docker desplegados sobre Linux." }
+    ],
+    "technologyLabel": "05 · Tecnología",
+    "technologyTitle1": "Construido para ser",
+    "technologyTitle2": "mantenible.",
+    "resultLabel": "06 · Resultado",
+    "resultTitle1": "Una base más clara para",
+    "resultTitle2": "la logística diaria.",
+    "resultCopy": "Logística SA centraliza la información y los flujos necesarios para gestionar clientes y paquetes, dando al negocio mayor visibilidad sobre sus operaciones diarias.",
+    "nextCategory": "Plataforma de reservas turísticas"
+  }
+}
