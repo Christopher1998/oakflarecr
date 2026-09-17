@@ -1,6 +1,7 @@
 // src/app/sitemap.ts
 
 import type { MetadataRoute } from "next";
+import { serviceIds, serviceRoutes } from "@/lib/service-routes";
 
 const baseUrl = "https://oakflarecr.com";
 
@@ -11,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/work/logistica-sa",
   ];
 
-  return pages.flatMap((path) => [
+  const existing: MetadataRoute.Sitemap = pages.flatMap((path) => [
     {
       url: `${baseUrl}/en${path}`,
       changeFrequency: path === "" ? "weekly" : "monthly",
@@ -37,4 +38,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
   ]);
+  return [...existing, ...serviceIds.flatMap((id) => (["en", "es"] as const).map((locale) => ({
+    url: `${baseUrl}${serviceRoutes[id][locale]}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: { languages: {
+      en: `${baseUrl}${serviceRoutes[id].en}`,
+      es: `${baseUrl}${serviceRoutes[id].es}`,
+      "x-default": `${baseUrl}${serviceRoutes[id].en}`,
+    } },
+  })))];
 }

@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
+import { translatedServicePath } from "@/lib/service-routes";
 
 function persistLocalePreference(locale: Locale) {
   document.cookie = `oakflare-locale=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
@@ -18,6 +19,8 @@ export default function LocaleSwitcher({ locale, labels }: {
   const router = useRouter();
 
   function hrefFor(target: Locale) {
+    const servicePath = translatedServicePath(pathname, target);
+    if (servicePath) return servicePath;
     const parts = pathname.split("/");
     parts[1] = target;
     return parts.join("/") || `/${target}`;

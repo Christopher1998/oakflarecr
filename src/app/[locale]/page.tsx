@@ -39,7 +39,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       <main id="main-content">
         <Hero messages={dictionary.hero} />
         <SelectedWork locale={locale} messages={dictionary.work} technologiesLabel={dictionary.common.technologies} />
-        <Services messages={dictionary.services} />
+        <Services locale={locale} messages={dictionary.services} />
         <About messages={dictionary.about} opensNewTab={dictionary.common.opensNewTab} />
         <Process messages={dictionary.process} />
         <Contact messages={dictionary.contact} />

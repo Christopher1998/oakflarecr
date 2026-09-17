@@ -1,8 +1,11 @@
 import SectionLabel from "@/components/ui/SectionLabel";
 import Arrow from "@/components/ui/Arrow";
 import type { Dictionary } from "@/i18n/types";
+import type { Locale } from "@/i18n/config";
+import Link from "next/link";
+import { serviceIds, serviceRoutes } from "@/lib/service-routes";
 
-export default function Services({ messages }: { messages: Dictionary["services"] }) {
+export default function Services({ locale, messages }: { locale: Locale; messages: Dictionary["services"] }) {
   return (
     <section id="services" className="border-t border-line bg-surface" aria-labelledby="services-heading">
       <div className="site-container section-space">
@@ -19,7 +22,7 @@ export default function Services({ messages }: { messages: Dictionary["services"
           {messages.items.map((service, index) => (
             <li key={service.title} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-x-4 gap-y-5 border-b border-line py-8 md:grid-cols-[2rem_minmax(0,1fr)_minmax(0,1fr)] md:gap-x-8 md:py-10">
               <span className="pt-2 font-mono text-xs text-accent">{String(index + 1).padStart(2, "0")}</span>
-              <h3 className="text-[clamp(1.75rem,2.8vw,2.75rem)] font-medium leading-tight tracking-[-0.04em]">{service.title}</h3>
+              <h3 className="text-[clamp(1.75rem,2.8vw,2.75rem)] font-medium leading-tight tracking-[-0.04em]">{serviceIds[index] ? <Link href={serviceRoutes[serviceIds[index]][locale]} className="transition-colors hover:text-accent">{service.title}</Link> : service.title}</h3>
               <div className="col-start-2 md:col-start-3">
                 <p className="max-w-xl text-base leading-7 text-muted">{service.description}</p>
                 <ul aria-label={messages.capabilitiesLabel} className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs leading-5 text-muted">

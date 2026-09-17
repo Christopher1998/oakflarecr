@@ -19,15 +19,18 @@ export function createPageMetadata({
   title,
   description,
   path = "",
+  localizedPaths,
   type,
 }: {
   locale: Locale;
   title: string;
   description: string;
   path?: string;
+  localizedPaths?: Record<Locale, string>;
   type: "website" | "article";
 }): Metadata {
-  const canonical = `/${locale}${path}`;
+  const paths = localizedPaths ?? { en: `/en${path}`, es: `/es${path}` };
+  const canonical = paths[locale];
   const imageAlt = socialImageAlt[locale];
 
   return {
@@ -36,9 +39,9 @@ export function createPageMetadata({
     alternates: {
       canonical,
       languages: {
-        en: `/en${path}`,
-        es: `/es${path}`,
-        "x-default": `/en${path}`,
+        en: paths.en,
+        es: paths.es,
+        "x-default": paths.en,
       },
     },
     openGraph: {
